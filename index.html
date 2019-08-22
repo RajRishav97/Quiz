@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keyword" content="bootstrap,bootstrap4,study website,video">
+
+
+    <!--Title-->
+    <title>Computer World.</title>
+
+    <!--favicon-->
+    <link rel="icon" href="favicon.ico" type="image/ico" sizes="16x16">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!--Glyphicons-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+      
+
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-lightblack">
+            <a class="navbar-brand" href="#" ><img src="img/logo_quiz.png" alt="Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Quizzes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" onclick="html()">HTML</a>
+                    <a class="dropdown-item" onclick="css()">CSS</a>
+                    <a class="dropdown-item" onclick="js()">JAVASCRIPT</a>
+                    <a href="#" onclick="sql()">SQL</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="#contact_us">Contact</a>
+                </li>
+              </ul>
+              <div class="gcse-searchbox-only" data-resultsUrl="https://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test"></div>
+            </div>
+          </nav>
+    
+    </header>
+
+ <!--Section: Work-->
+
+<div id="main_page">
+    <div class="section-content" id="content">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card-deck">
+
+                         <!--HTML-->
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">HTML Quiz</h4>
+                            </div>
+                            <img src="img/html.png" alt="html logo">
+                            <div class="card-block wrapper">
+                                <button type="button" class="btn btn-primary button" onclick="html()">Give the quiz</button>
+                                
+                            </div>
+                        </div>
+                        <!--HTML end-->
+
+                        <!--CSS-->
+
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">CSS Quiz</h4>
+                            </div>
+                            <img src="img/css.png" alt="css logo">
+                            <div class="card-block wrapper">
+                                <button type="button" class="btn btn-primary button" onclick="css()">Give the quiz</button>
+                            </div>
+                        </div>
+                        
+                         <!--CSS end-->
+
+                          <!--JAVASCRIPT-->
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">Javascript Quiz</h4>
+                            </div>
+                            <img src="img/js.png" alt="Javascript logo">
+                            <div class="card-block wrapper">
+                                <button type="button" class="btn btn-primary button" onclick="js()">Give the quiz</button>
+                                
+                            </div>
+                        </div>
+                        <!--JAVASCRIPT end-->
+
+                        <!--SQL-->
+
+                        <div class="card">
+                            <div class="card-block">
+                                <h4 class="card-title">SQL Quiz</h4>
+                            </div>
+                            <img src="img/sql.png" alt="sql logo">
+                            <div class="card-block wrapper">
+                                <button type="button" class="btn btn-primary button" onclick="sql()">Give the quiz</button>
+                                
+                            </div>
+                        </div>
+
+                        <!--SQL end-->
+
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="qz">
+        <h1 id="start_quiz"></h1>    
+    </div>
+
+</div>
+
+<!--Section end-->
+
+
+
+
+ <!--Why CS is important-->
+    
+<section id="importance">
+    <div class="section-content">
+        <div class="container">
+            <div class="col-md-6">
+                <div class="about-text">
+                    <h3>Why Computer Science??</h3>
+                    <p class="lead">"Computing and computer technology are part of just about everything that touches our lives from the cars we drive, to the movies we watch, to the ways businesses and governments deal with us. Understanding different dimensions of computing is part of the necessary skill set for an educated person in the 21st century. Whether you want to be a scientist, develop the latest killer application, or just know what it really means when someone says 'the computer made a mistake', studying computing will provide you with valuable knowledge."</p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Section end-->
+            
+<!--Contact form-->
+<section class="mb-4"  id="form">
+    <div class="container" >
+
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+
+    <h3 class="text-center w-responsive mx-auto mb-5">Do you have any questions? </h3>
+
+    <div class="row" id="contact_us">
+
+        <div class="container">
+            <div class="col-md-12">
+                <form id="contact-form" >
+
+                    <div class="row">
+
+                        <!--Name-->
+                        <div class="col-md-6">
+                            <div >
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Your name</label>
+                            </div>
+                        </div>
+                        <!--Name-->
+
+                        <!--Email-->
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">Your email</label>
+                            </div>
+                        </div>
+                        <!--Email end-->
+
+                    </div>
+
+                    <!--Subject-->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div >
+                                <input type="text" id="subject" name="subject" class="form-control">
+                                <label for="subject" class="">Subject</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Subject end-->
+
+                    <!--Message-->
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div >
+                                <textarea id="message" name="message" rows="2" class="form-control"></textarea>
+                                <label for="message">Your message</label>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--Message end-->
+
+                </form>
+
+                <div class="wrapper">
+                    <a class="btn btn-primary button">Send</a>
+                </div>
+                <div class="status"></div>
+            </div>
+            <!--Form end-->
+
+        
+
+        </div>
+    </div>
+</div>
+</section>
+<!--Contact end-->
+
+
+            <footer id="footer-main">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-sm-4">
+                                    <p>uncopyright. </p>
+                                    <p>Do what you want.</p>
+                                    <p>coded by <a href="#">Rishav</a></p>
+                                </div>
+                                <div class="col-sm-4">
+                                    <ul class="list-unstyled">
+                                        <li><i class="fa fa-home"></i><a href="">home</a></li>
+                                        <li><a href=""><i class="fa fa-id-badge"></i>what we do?</a></li>
+                                        <li><a href=""><i class="fa fa-user"></i>about</a></li>
+                                        <li><a href=""><i class="fa fa-plus"></i>latest</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-4">
+                                        <h6>You can follow me:<span class="fa fa-user"></span></h6>
+                                        <i class="fa fa-twitter"></i><a href="" class="btn btn-sm btn-secondary-outline">twitter</a>
+                                        <i class="fa fa-facebook"></i> <a href="" class="btn btn-sm btn-secondary-outline">facebook</a>
+                                        <i class="fa fa-youtube"></i><a href="" class="btn btn-sm btn-secondary-outline">youtube</a>
+                                </div>
+                            </div>
+                                <!--Grid column-->
+                            <div class="row">
+                                    <ul class="address">
+                                        <li><i class="fa fa-link"></i>
+                                            <p>https://www.niit.com/stackroute/</p>
+                                        </li>
+    
+                                        <li><i class="fa fa-phone"></i>
+                                            <p>+91 80 4127 5059</p>
+                                        </li>
+    
+                                        <li><i class="fa fa-envelope"></i>
+                                            <p>StackRouteGlobal@niit.com</p>
+                                        </li>
+                        
+                                        <li><i class="fa fa-map-marker"></i>
+                                            <p>7th Block, Koramangala, Bengaluru, Karnataka 560095</p>
+                                        </li>
+                                    </ul>
+                            </div>
+            <!--Grid column-->
+                </div>
+            </footer>
+        
+
+
+    <!-- jQuery first, then Bootstrap JS. -->
+<script src="Main.js"></script>
+<script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
