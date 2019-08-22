@@ -1,6 +1,6 @@
 # stackroute2
 
-# Day_6
+# Quiz website..
 
 On Day 8, Continued on webpage and make dynamic website. A quiz website.
 
