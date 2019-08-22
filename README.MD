@@ -2,34 +2,20 @@
 
 # Day_6
 
-On Day 6, Continued on bootstrap and added some new features.
+On Day 8, Continued on webpage and make dynamic website. A quiz website.
 
 
 ## Usage
 
-Fixed Header/Navigation Bar
+HTML
 
-Drop-down menu
+JavaScript
 
-Jumbotron
+CSS
 
-CarouselGrid 
+## Purpose
 
-framework
-
-Footer
-
-Favicons 
-
-Glyphicon 
-
-Google fonts
-
-Tabbed pane
-
-Modal
-
-Additional elements (ex: Google map)
+To check knowledge of person on particular topic.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
