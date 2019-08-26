@@ -1,6 +1,8 @@
 html,
 body {
-    height: 101%;
+  background: whitesmoke;
+  max-width: 100%;
+    height: 100%;
 }
 
 img,iframe {
@@ -9,24 +11,33 @@ img,iframe {
 }
 
 .screen{
-    min-width: 100%;
+    max-width: 100%;
 }
 
 .section-content {
-    padding: 5rem 0;
+    padding-bottom: 5rem;
 }
 
+ button{
+  background: rgb(4, 101, 192);
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  max-width: 100%;
+  margin: auto;
+}
+
+#quest_section{
+  background: whitesmoke;
+  position: relative;
+  left: 10%;
+  top: 10%;
+}
 #importance {
     background: url('img/cs_why.jpg') center center no-repeat;
     background-size: cover;
 }
-#qz{
-padding: 5rem;
-margin: 10rem 10rem 10rem 10rem;
-text-transform: uppercase;
-text-align: center;
-font-size: 3rem;
-}
+
 
 .about-text {
     background: rgba(0,0,0,0.8);
@@ -38,13 +49,13 @@ font-size: 3rem;
     background: #222;
     color: white;
     font-size: 0.8rem;
-    padding: 2.5rem 0;
 }
 .bg-lightblack{
     background: rgb(50, 52, 53);
     text-emphasis: strong;
     text-transform: uppercase;
     font-size: 1.3rem;
+    max-width: 100%;
 }
 .bg-lightblack a:hover{
   border: 2px solid rgb(12, 127, 221);
@@ -58,15 +69,25 @@ font-size: 3rem;
     text-align: center;
 }
 
-.button {
+button {
     left: 50%;
 }
-
+.fixed-top{
+  max-width: 100%;
+}
 
 .gcse-searchbox-only{
   max-width: 100%;
 }
 
+#main_page{
+  padding-top: 10%;
+}
+#start_quiz{
+  position: inherit;
+  top:30%;
+  color: black;
+}
 
 main{
     color: white;
@@ -125,28 +146,3 @@ footer a{
   font-size: 1rem;
 
 }
-
-
-@media (min-width: 544px) {
-    .container {
-      max-width: 576px;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .container {
-      max-width: 940px;
-    }
-  }
-  
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1140px;
-    }
-  }

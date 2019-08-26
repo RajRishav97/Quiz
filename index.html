@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="keyword" content="bootstrap,bootstrap4,study website,video">
+    <meta name="keyword" content="Quiz,html,CSS,Javascript,sql">
 
 
     <!--Title-->
@@ -27,47 +27,49 @@
     
   </head>
   <body>
-      
-
-    <header class="fixed-top">
+ 
+    
+    <header class="fixed-top" id="header_section">
         <nav class="navbar navbar-expand-lg navbar-dark bg-lightblack">
             <a class="navbar-brand" href="#" ><img src="img/logo_quiz.png" alt="Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon"></span>
             </button>
-          
+            
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Quizzes
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Courses
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" onclick="html()">HTML</a>
                     <a class="dropdown-item" onclick="css()">CSS</a>
-                    <a class="dropdown-item" onclick="js()">JAVASCRIPT</a>
-                    <a href="#" onclick="sql()">SQL</a>
-                  </div>
+                    <a class="dropdown-item" onclick="js()">Javascript</a>
+                    <a onclick="sql()" class="dropdown-item">SQL</a>
+                    </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#contact_us">Contact</a>
+                    <a class="nav-link " href="#contact_us">Contact</a>
                 </li>
-              </ul>
-              <div class="gcse-searchbox-only" data-resultsUrl="https://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test"></div>
+                </ul>
+                <div class="gcse-searchbox-only" data-resultsUrl="https://googlecustomsearch.appspot.com/elementv2/two-page_results_elements_v2.html?query=test"></div>
+                </div>
             </div>
-          </nav>
+            </nav>
     
     </header>
+          
 
  <!--Section: Work-->
 
-<div id="main_page">
+<main id="main_page">
     <div class="section-content" id="content">
         <div class="container">
         
@@ -136,22 +138,17 @@
             </div>
         </div>
     </div>
+    <div id="start_quiz"></div>    
 
-    <div id="qz">
-        <h1 id="start_quiz"></h1>    
-    </div>
-
-</div>
+</main>
 
 <!--Section end-->
-
-
 
 
  <!--Why CS is important-->
     
 <section id="importance">
-    <div class="section-content">
+    <artcle class="section-content">
         <div class="container">
             <div class="col-md-6">
                 <div class="about-text">
@@ -161,9 +158,29 @@
                 </div>
             </div>
         </div>
+    </article>
+</section>
+<!--Section end-->
+
+
+<!--Section for quiz-->
+<section id="quiz">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#quest_btn" aria-controls="quest_btn" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="col-sm-2 navbar-collapse" id="quest_btn">
+            
+    </div>
+    <div class="col-sm-8" id="quest_section">
+            <h1 id="qs"></h1>
+            <p id="option_a"></p>
+            <p id="option_b"></p>
+            <p id="option_c"></p>
+            <p id="option_d"></p>
     </div>
 </section>
-    <!--Section end-->
+
+
             
 <!--Contact form-->
 <section class="mb-4"  id="form">
@@ -244,6 +261,8 @@
 <!--Contact end-->
 
 
+<!--Footer Start-->
+
             <footer id="footer-main">
                 <div class="container">
                         <div class="row">
@@ -294,7 +313,9 @@
 
 
     <!-- jQuery first, then Bootstrap JS. -->
+    
 <script src="Main.js"></script>
+<script type="text/javascript" src="Quizzer.json"></script>
 <script async src="https://cse.google.com/cse.js?cx=000888210889775888983:pqb3ch1ewhg"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

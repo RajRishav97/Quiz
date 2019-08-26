@@ -1,0 +1,141 @@
+{ "quiz":{
+        "HTML": {
+            "q1": {
+                "question": "What does HTML stand for?",
+                "options": [
+                    "Hyper Text Markup Language",
+                    "Home Tool Markup Language",
+                    "Hyperlinks and Text Markup Language",
+                    "Hyper Text Mark Language"
+                ],
+                "answer": "Hyper Text Markup Language"
+            },
+            
+            "q2": {
+                "question": "What is the difference between HTML and HTML5 ?",
+                "options": [
+                    "In HTML5 no need to do external plugin like Flash player or other library.",
+                    "HTML5 is an upgraded version of HTML.",
+                    "All are correct.",
+                    "In HTML5 lot of new future like Video and Audio/mp3, placeholder , Canvas, 2D/3D Graphics, Local Storage were added."
+                ],
+                "answer": "All are correct."
+            },
+
+            "q3": {
+                "question": "Which of the follows are all new elements for  HTML5?",
+                "options": [
+                    "Article, footer, section, audio, track",
+                    "Object, article, br, table, input",
+                    "Input, frame, body, table, form",
+                    "All of them"
+
+                ],
+                "answer": "Article, footer, section, audio, track"
+            },
+
+            "q4": {
+                "question": "What is the use of localStorage in HTML5?",
+                "options": [
+                    "It doesn t exist for HTML5",
+                    "It stores the data for one session.",
+                    "It stores data with no expiration date.",
+                    "It stores data until cache is cleaned."
+
+                ],
+                "answer": "It stores data until cache is cleaned."
+            },
+
+            "q5": {
+                "question": "Which of the following tag represents a generic document or application section in HTML5?",
+                "options": [
+                    "section",
+                    "article",
+                    "aside",
+                    "header"
+
+                ],
+                "answer": "section"
+            },
+
+            "q6": {
+                "question": "Which of the following is correct about custom attributes in HTML5?",
+                "options": [
+                    "A custom data attribute starts with data- and would be named based on your requirement.",
+                    "You would be able to get the values of these attributes using JavaScript APIs or CSS in similar way as you get for standard attributes.",
+                    "Both of the above.",
+                    "None of the above."
+
+                ],
+                "answer": "Both of the above."
+            },
+
+            "q7": {
+                "question": "Which of the following is correct about Web form 2.0 in HTML5?",
+                "options": [
+                    "Web Forms 2.0 is an extension to the forms features found in HTML4.",
+                    "Form elements and attributes in HTML5 provide a greater degree of semantic mark-up than HTML4.",
+                    "Form elements and attributes in HTML5 remove a great deal of the need for tedious scripting and styling that was required in HTML4.",
+                    "All of the above."
+
+                ],
+                "answer": "All of the above."
+            },
+
+            "q8": {
+                "question": "Can you use MathML tags directly in HTML5 without any plugin?",
+                "options": [
+                    "true",
+                    "false"
+                ],
+                "answer": "true"
+            },
+
+            "q9": {
+                "question": "Which of the following attribute triggers event when the document goes offline?",
+                "options": [
+                    "offlie",
+                    "off",
+                    "out",
+                    "onbeforeload"
+
+                ],
+                "answer": "offline"
+            },
+
+            "q10": {
+                "question": "Which of the following attribute triggers event at the end of a drag operation?",
+                "options": [
+                    "ondragleave",
+                    "ondrag",
+                    "ondragend",
+                    "ondragcenter"
+
+                ],
+                "answer": "ondragend"
+            }
+        },
+        "maths": {
+            "q1": {
+                "question": "5 + 7 = ?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "answer": "12"
+            },
+            "q2": {
+                "question": "12 - 8 = ?",
+                "options": [
+                    "1",
+                    "2",
+                    "3",
+                    "4"
+                ],
+                "answer": "4"
+            }
+        }
+    }
+}

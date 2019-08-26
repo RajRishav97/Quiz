@@ -2,7 +2,7 @@
 
 # Quiz website..
 
-On Day 8, Continued on webpage and make dynamic website. A quiz website.
+On Day 8 and 9, Continued on webpage and make dynamic website. A quiz website.
 
 
 ## Usage
@@ -12,6 +12,12 @@ HTML
 JavaScript
 
 CSS
+
+bootstrap
+
+json fetch
+
+document object models
 
 ## Purpose
 
